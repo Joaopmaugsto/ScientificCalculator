@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Scientific Calculator</title>
+</head>
+<body>
+  <section class="container">
+    <div class="calculator dark">
+      <div class="theme-toggler active">
+        <i class="toggler-icon"></i>
+      </div>
+       <input type="text" id="screen">
+        <div class="calc-buttons">
+          <table>
+            <tr>
+              <td><button class="button btn-operator" id="clear">C</button></td>
+              <td><button class="button btn-operator">∘</button></td>
+              <td><button class="button btn-operator">rad</button></td>
+              <td><button class="button btn-operator">x !</button></td>
+              <td><button class="button btn-operator">&#x003C0;</button></td>
+              <td> <button class="button btn-operator">&#60;</button></td>
+              <td><button class="button btn-operator">/</button></td>
+            </tr>
+            <tr>
+              <td><button class="button btn-operator">sin</button></td>
+              <td><button class="button btn-operator">cos</button></td>
+              <td><button class="button btn-operator">x^</button></td>
+              <td><button class="button btn-num">7</button></td>
+              <td><button class="button btn-num">8</button></td>
+              <td><button class="button btn-num">9</button></td>
+              <td><button class="button btn-operator">*</button></td>
+            </tr>
+            <tr>
+              <td><button class="button btn-operator">tan</button></td>
+              <td><button class="button btn-operator">log</button></td>
+              <td><button class="button btn-operator">√</button></td>
+              <td><button class="button btn-num">4</button></td>
+              <td><button class="button btn-num">5</button></td>
+              <td><button class="button btn-num">6</button></td>
+              <td><button class="button btn-operator">-</button></td>
+            </tr>
+            <tr>
+              <td><button class="button btn-operator">ln</button></td>
+              <td><button class="button btn-operator">e</button></td>
+              <td><button class="button btn-operator">x ²</button></td>
+              <td><button class="button btn-num">1</button></td>
+              <td><button class="button btn-num">2</button></td>
+              <td><button class="button btn-num">3</button></td>
+              <td><button class="button btn-operator">+</button></td>
+            </tr>
+            <tr>
+              <td><button class="button btn-operator">%</button></td>
+              <td><button class="button btn-operator">(</button></td>
+              <td><button class="button btn-operator">)</button></td>
+              <td><button class="button btn-operator">.</button></td>
+              <td><button class="button btn-num">0</button></td>
+              <td><button class="button btn-equal-sign" id="equal-sign">=</button></td>
+              <td><button class="button btn-operator">±</button></td>
+            </tr>
+          </table>   
+      </div>
+    </div>
+  </section>
+
+
+    <script src="./resources/main.js"></script>
+</body>
+</html>
